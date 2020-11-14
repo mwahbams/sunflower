@@ -1,0 +1,28 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: sunflower
+  profiles:
+    active: "${ACTIVE_PROFILE: h2}"
+#  jpa:
+#    properties:
+#      hibernate:
+#        generate_statistics: true
+
+
+#  docker build -t sunflower:0.1 .
+
+#  docker build -t mwahbams/sunflower:0.1 .
+
+#
+#   docker run -e ACTIVE_PROFILE=h2
+#  --name ecommerce-ns  -p8090:8090 mwahbams/sunflower:0.1
+
+#  http://localhost:8090/h2-console
+#    url: jdbc:h2:mem:h2-sunflower
+#    username: admin
+#    password: admin
+
+#  http://localhost:8090/swagger-ui.html
