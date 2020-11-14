@@ -28,4 +28,15 @@ This project is a Springboot Application.
        - url: jdbc:h2:mem:h2-sunflower
        - username: admin
        - password: admin
+       
+#Json Sample
+    -Add Class
+     {
+         "name" : "m2-Math",
+         "startDate": "2020-10-01",
+         "endDate": "2021-02-01",
+         "periodInWeeks" : 20,
+         "courseId":4,
+         "teacherId":3
+     }
     
